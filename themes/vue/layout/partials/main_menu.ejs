@@ -1,0 +1,9 @@
+<li>
+  <a href="<%- url_for("/v2/api/") %>" class="nav-link<%- page.path.match(/\/api(\/|$)/) ? ' current' : '' %>">vue-snake-ui API</a>
+</li>
+<li>
+  <a href="<%- url_for("/v2/style-guide/") %>" class="nav-link<%- page.path.match(/\/style-guide(\/|$)/) ? ' current' : '' %>">Vue风格指南</a>
+</li>
+<%- partial('partials/support_vue_dropdown') %>
+
+
